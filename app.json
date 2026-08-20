@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "auto-preco",
+    "name": "AutoPreco",
     "slug": "auto-preco",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,8 @@
     "scheme": "autopreco",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.auto-preco"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,9 +29,10 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#F8F7FC",
+          "image": "./assets/images/logo_autopreco.png",
+          "imageWidth": 220,
+          "resizeMode": "contain"
         }
       ]
     ],
