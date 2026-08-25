@@ -29,6 +29,7 @@ export default function Login() {
             label="Login"
             className="bg-[#1c028b] flex-1 active:bg-[#7d31f5]"
             textClassName="text-white"
+            onPress={() => router.push("/(app)/(tabs)/home")}
           />
           <Button
             label="Cadastro"
